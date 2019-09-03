@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+.content {
+  max-width: 1100px;
+  margin: auto;
+  background: white;
+  padding: 10px;
+}
+
+body {
+
+  font-family: Arial, Helvetica, sans-serif;
+  border: double silver;
+  padding: 20px
+}
+
+/* Style the header */
+header {
+  background-color: transparent;
+  
+  text-align: center;
+  font-size: 35px;
+  color: black;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 24%;
+  height: 790px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+	/*after second block*/
+  float: left;
+  padding: 20px;
+  width: 76%;
+  background-color:silver;
+  height: 790px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+
+
+<header>
+  <h2>Resume</h2>
+</header>
+
+<section class="content">
+  <nav>
+  	<img src="rakhi.jpg" width="200px" height="250px" style="padding-left: 20px">
+    <h2>Arepally Rakesh</h2>
+    <p><b>contact:</b> 9494580514</p>
+    <p><h4 style="color: blue;">CAREER OBJECTIVE</h4>To shoulder the responsibilities entrusted to the best of my abilities and to develop my capabilities. To apply my knowledge in managing events with a dynamic team.</p>
+    <h4 style="color: blue;">CONTACT ME</h4>
+    <p>H.no:5-11-51/7H3,priyadarshini nager, nirmal 504601.</p>
+    <h4 style="color:blue;">TECHNICAL SKILLS</h4>
+    <ul style="list-style-type:square; padding-left:20px">
+    	<li>python, java</li>
+    	<li>HTML,CSS</li>
+    	<li>DBMS, SQL</li>
+    </ul>
+
+
+    
+  </nav>
+  
+  <article>
+    <h4 style="color: blue;">EDUCATION</h4>
+    <ul style="list-style-type:square; padding-left:20px">
+    	<li>Pursuing Master of Science in Information Technology (MSIT), 2018-2020 from International Institute of Information Technology (IIIT), Hyderabad with an average GPA 7.6 .</li>
+    	<li>Graduate in Electronics and communication from the year 2013-2017 from the Nalla Malla Reddy Engineering College, Hyderabad with 59%.</li>
+    	<li>Completed Intermediate in the year 2011-2013 from the   Narayana Junior College with 92.3%.</li>
+    	<li>Completed High school from the year 2001-2011 from the KrishnaVeni Talent School with 83%.</li>
+    </ul>
+
+
+    <h4 style="color: blue;">ACADEMIC PROJECTS</h4>
+   <ul style="list-style-type:square; padding-left:20px">
+    	<li><b>Project Name: </b>Arduino based underground cable fault detection.<br>
+		<b>Role: </b>To write the code for arduino based on the resistance values of the cables.<br>
+		<b>Description: </b>The project is used get the exact location of the fault.  </li><br><br>
+
+    	<li><b>Project Name:</b> Home Security System using Bluetooth.<br>
+		<b> Role:</b> connected the components based on circuit diagram.<br>
+		<b>Description: </b> In this project, we used a fire sensor to detect the fire and gives the alarm and sends the information to mobile using Bluetooth. </li>
+    	
+    </ul>
+
+     <h4 style="color: blue;">EXTRA- CURRICULAR ACTIVITIES</h4>
+   <ul style="list-style-type:circle; padding-left:20px">
+    	<li>Participated in a two day Circuit Design Workshop 2015, in Nalla Malla Reddy Engineering college, Hyderabad.</li>
+
+    	<li>Conducted workshop in our college on PCB.</li>
+    	
+    </ul>
+
+    <h4 style="color: blue;">CERTIFICATIONS/ ACADEMIC ACHIEVEMENTS</h4>
+    <li>Conducted workshop in our college on PCB.</li>
+    	
+    </ul>
+
+     <h4 style="color: blue;">HOBBIES
+     </h4><li>Conducted workshop in our college on PCB.</li>
+    	
+    </ul>
+
+    <h4 style="color:blue;">WEB PRESENCE</h4>
+    <p><b>Github:</b><br>https://github.com/Arepallyrakesh</p>
+
+
+    
+  </article>
+</section>
+
+
+
+</body>
+</html>
